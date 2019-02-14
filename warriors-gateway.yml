@@ -8,5 +8,7 @@ zuul:
       path: /warriors-auth/**
       stripPrefix: false
       sensetiveHeaders:
+  debug:
+    request: true
 server:
   port: 4000
