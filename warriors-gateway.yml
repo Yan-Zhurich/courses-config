@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    warriors-video:
+      path: /warriors-video/**
+      stripPrefix: false
+      sensetiveHeaders:
+    warriors-auth:
+      path: /warriors-auth/**
+      stripPrefix: false
+      sensetiveHeaders:
+server:
+  port: 4000
