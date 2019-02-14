@@ -2,6 +2,7 @@ zuul:
   routes:
     warriors-video:
       path: /warriors-video/**
+      serviceId: warriors-video
       stripPrefix: false
       sensetiveHeaders:
     warriors-auth:
